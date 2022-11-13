@@ -1,6 +1,6 @@
 #navigation-div {
  height: 80px;
- background-color: #301934;
+ background-color: #002966;
  margin: 0;
  padding: 0;
  text-align: center;
@@ -14,7 +14,7 @@
 body {
  margin: 0;
  padding: 0;
- background-color: #301934;
+ background-color: white;
 }
 
 p {
@@ -34,7 +34,7 @@ p {
 
 #image-water {
  width: 100%;
- opacity: 20%;
+ opacity: 80%;
 }
 
 #image-filler {
@@ -42,8 +42,9 @@ p {
  bottom: 200px;
  text-align: center;
  font-size: 50px;
- color: white;
+ color: #002966;
  opacity: 50%;
+ font-family: fantasy;
 }
 
 .nav-link {
@@ -63,7 +64,7 @@ p {
 }
 
 #welcome {
- color: white;
+ color: black;
  text-align: center;
  margin: 20px;
  text-decoration: underline;
@@ -76,7 +77,7 @@ p {
   margin-top: 50px;
   width: 60%;
   border-radius: 20px;
-  opacity: 60%;
+  opacity: 100%;
 }
 
 #glass-image {
@@ -88,17 +89,166 @@ html {
 }
 
 .question {
-  color: white;
+  color: #002966;
   margin-top: 20px;
   font-size: 30px;
   text-align: center;
 }
 
 .answer {
-  color: white;
+  color: black;
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+#kangen-properties {
+  text-align: center;
+  background-color: #002966;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+/* first properties */
+
+#image-hydro {
+  width: 90%;
+}
+
+#hydro-title {
+  text-align: center;
+  height: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: #3450a4;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#desc-hydro {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#properties-first {
+  text-align: center;
+}
+
+/* second properties */
+
+#image-antioxidant {
+  width: 90%;
+}
+
+#title-antioxidant {
+  text-align: center;
+  height: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: #3450a4;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#desc-antioxidant {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#properties-second {
+  text-align: center;
+}
+
+/* third-properties */
+
+#image-alkaline {
+  width: 90%;
+}
+
+#title-alkaline {
+  text-align: center;
+  height: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: #3450a4;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#desc-alkaline {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#properties-third {
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  height: 200px;
+  background-color: #002966;
+  color: white;
+}
+
+#footer-title {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+#footer-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-style: outset;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.contact-left {
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 5px;
+  font-family: sans-serif;
+}
+
+.contact-right {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#social {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.fa {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fa:hover {
+  color: #3450a4;
+}
+
+#footer-section {
+  padding-top: 10px;
 }
